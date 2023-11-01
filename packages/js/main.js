@@ -171,7 +171,7 @@ document.getElementById("contact-form").addEventListener("submit", (e) => {
       message: document.getElementById("message").value,
     };
 
-    const serviceID = "service_u7c39pn";
+    const serviceID = "default_service";
     const templateID = "template_667etep";
 
     emailjs
