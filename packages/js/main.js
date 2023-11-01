@@ -166,8 +166,8 @@ document.getElementById("contact-form").addEventListener("submit", (e) => {
     document.getElementById("message").value != ""
   ) {
     let params = {
-      name: document.getElementById("name").value,
-      email: document.getElementById("email").value,
+      to_name: document.getElementById("name").value,
+      from_name: document.getElementById("email").value,
       message: document.getElementById("message").value,
     };
 
